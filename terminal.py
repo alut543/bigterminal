@@ -65,7 +65,7 @@ if downloadline == "y":
         elif cmdline == "dice":
             list = ["1", "2", "3", "4", "5", "6"]
             print("You rolled a " + random.choice(list))
-        elif cmdline == "calc" or "calculator":
+        elif cmdline == "calc":
             print("Calculator:")
             calcline = input ("> ")
             if calcline == "addition":
