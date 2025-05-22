@@ -1,8 +1,6 @@
 import time
 import random
 
-# Bigterminal.py - Made by IdiotsAtCoding
-
 print(" 👤 Idiotic Terminal 👤 ")
 print("\n")
 print("\n")
@@ -95,6 +93,3 @@ if downloadline == "y":
             print(copy)
         else:
             print("Sorry, such command doesn't exist in our ciricullum. Please type help for help.")
-
-            # Jesus, that took long, I think I'm going to faint after realizing that I need to do more work just to make this better
-            # IdioticCoding
