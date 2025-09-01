@@ -22,6 +22,7 @@ if downloadline == "y":
             print("dice - Opens a quick dice game (you can use this for board games if you dont have a dice lmao)")
             print("calc or calculator - if you are trying to solve simple equations")
             print("echo - Directly copies what you say. ")
+            print("*survey - starts a small survey")
             print("*restart - Restarts CMD.")
         elif cmdline == "rps":
             print("You are in a rock, paper, scissors game.")
@@ -93,6 +94,8 @@ if downloadline == "y":
             copy = input("> ")
             print(copy)
         elif cmdline == "restart":
+            print("This command is disabled, future updates are made to the teriminal, please try again after the title of the Idiotic terminal has a VX.X next to it.")
+        elif cmdline == "survey":
             print("This command is disabled, future updates are made to the teriminal, please try again after the title of the Idiotic terminal has a VX.X next to it.")
         else:
             print("Sorry, such command doesn't exist in our ciricullum. Please type help for help.")
