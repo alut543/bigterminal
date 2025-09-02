@@ -1,7 +1,10 @@
 import time
 import random
 
-print(" 👤 Idiotic Terminal 👤 ")
+# Bigterminal.py - Made by IdiotsAtCoding (Aluta)
+# Planning to add more features, Ver1.0
+
+print(" 👤 Idiotic Terminal 👤 (VER1.0) ")
 print("\n")
 print("\n")
 print("Would you like to install the Idiotic Terminal? (y/n)")
@@ -22,8 +25,6 @@ if downloadline == "y":
             print("dice - Opens a quick dice game (you can use this for board games if you dont have a dice lmao)")
             print("calc or calculator - if you are trying to solve simple equations")
             print("echo - Directly copies what you say. ")
-            print("*survey - starts a small survey")
-            print("*restart - Restarts CMD.")
         elif cmdline == "rps":
             print("You are in a rock, paper, scissors game.")
             print("Choose your action. (rock, paper, scissors)")
@@ -67,7 +68,7 @@ if downloadline == "y":
         elif cmdline == "dice":
             list = ["1", "2", "3", "4", "5", "6"]
             print("You rolled a " + random.choice(list))
-        elif cmdline == "calc":
+        elif cmdline == "calc" or "calculator":
             print("Calculator:")
             calcline = input ("> ")
             if calcline == "addition":
@@ -93,9 +94,13 @@ if downloadline == "y":
             print("Type in what you want the computer to say.")
             copy = input("> ")
             print(copy)
-        elif cmdline == "restart":
-            print("This command is disabled, future updates are made to the teriminal, please try again after the title of the Idiotic terminal has a VX.X next to it.")
-        elif cmdline == "survey":
-            print("This command is disabled, future updates are made to the teriminal, please try again after the title of the Idiotic terminal has a VX.X next to it.")
         else:
             print("Sorry, such command doesn't exist in our ciricullum. Please type help for help.")
+
+            # Wow, that took too much time, I think I'm going to faint after realizing that I need to do more work just to make this better.
+            # IdioticCoding, made by aluta.
+            # I'm planning to add more stuff to this, I think I'm going to add a survey, some minigames and something that leads to websites, like a website generator planning to have it generate 10 websites to read or use, 
+            # -and maybe even add a youtube command like startyt. The generators label will be called "websitegenidt".
+            # but for now, my ideas are youtube command, generation command, and surveys and minigames, I will work on a minesweeper version for this in the future, It's projected to take about 3 weeks of coding, but stay tuned
+            # I'll keep on working.
+            # I'll work on this list, deleting one by one after finish my plans, small projects will be made later added to this project. aluta out.
