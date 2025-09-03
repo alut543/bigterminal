@@ -25,6 +25,12 @@ if downloadline == "y":
             print("dice - Opens a quick dice game (you can use this for board games if you dont have a dice lmao)")
             print("calc or calculator - if you are trying to solve simple equations")
             print("echo - Directly copies what you say. ")
+            print("startyt - Opens YouTube.")
+            print("websitegenrng - Generates a random website from 10 sources (Planning to add more")
+        elif cmdline == "startyt":
+            print("https://youtube.com")
+        elif cmdline == "websitegenrng":
+            websiternglist = ["https://youtube.com", "https://paint.toys/calligram/", "https://maze.toys/mazes/mini/daily/"]
         elif cmdline == "rps":
             print("You are in a rock, paper, scissors game.")
             print("Choose your action. (rock, paper, scissors)")
