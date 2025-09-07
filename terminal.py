@@ -26,11 +26,13 @@ if downloadline == "y":
             print("calc or calculator - if you are trying to solve simple equations")
             print("echo - Directly copies what you say. ")
             print("startyt - Opens YouTube.")
-            print("websitegenrng - Generates a random website from 10 sources (Planning to add more")
+            print("websitegenrng - Generates a random website from 4 sources (Planning to add more")
         elif cmdline == "startyt":
-            print("https://youtube.com")
+            print("Here is the website for youtube" + "https://youtube.com")
         elif cmdline == "websitegenrng":
-            websiternglist = ["https://youtube.com", "https://paint.toys/calligram/", "https://maze.toys/mazes/mini/daily/"]
+            websiternglist = ["https://youtube.com", "https://paint.toys/calligram/", "https://maze.toys/mazes/mini/daily/", "https://www.bbc.com/news/articles/cz9jpzql958o"]
+            websitetextfollow = ["Maybe you should check this website?", "You should check this website out!", "This looks interesting, why not try it out?", "This is cool! You should check it out"]
+            print(random.choice(websitetextfollow) + "\n" + random.choice(websiternglist))
         elif cmdline == "rps":
             print("You are in a rock, paper, scissors game.")
             print("Choose your action. (rock, paper, scissors)")
