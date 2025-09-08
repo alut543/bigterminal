@@ -13,6 +13,22 @@ downloadline = input("> ")
 if downloadline == "y":
     print("What is your username?")
     usernameline = input("> ")
+    print("Setting up the Terminal...")
+    sleeplist = [3,5,9]
+    time.sleep(random.choice(sleeplist))
+    print("Terminal Setup!")
+    time.sleep(random.choice(sleeplist))
+    print("Setting Up the commands...")
+    time.sleep(random.choice(sleeplist))
+    print("Commands set up, starting terminal in...")
+    print("1")
+    time.sleep(1)
+    print("2")
+    time.sleep(1)
+    print("3")
+    time.sleep(1)
+    print("Terminal Started!")
+    print("\n")
     
     while True:
         cmdline = input("root@" + usernameline + "> ")
