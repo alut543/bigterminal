@@ -2,7 +2,7 @@ import time
 import random
 
 # Bigterminal.py - Made by IdiotsAtCoding (Aluta)
-# Planning to add more features, Ver1.0
+# Planning to add more features, Ver1.2
 
 print(" 👤 Idiotic Terminal 👤 (VER1.0) ")
 print("\n")
