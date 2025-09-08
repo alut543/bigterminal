@@ -1,5 +1,7 @@
-IDIOTIC TERMINAL TERMS OF SERVICE
+IDIOTIC TERMINAL
 
-In result of death or missing person from using the terminal, we will notify the police in 24 hours.
+Terminal fully made in python!
 
-Now, aaaeeoakaaaaaaowpaoooooooooooooooooooooooooooooooooooooooooooooooooooo
+Generate websites, play games, watch youtube!
+
+Calculate simplified equations! (2+2)
